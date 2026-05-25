@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-dark: #1B0F3F;
+  --brand-deep: #2A1B5E;
+  --brand-purple: #3D2B7A;
+  --brand-violet: #5B3FB8;
+  --brand-accent: #6B47C9;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-hero {
+  background: linear-gradient(135deg, #1B0F3F 0%, #2A1B5E 45%, #3D2B7A 100%);
+}
+
+.bg-panel {
+  background: linear-gradient(110deg, #5B2A8C 0%, #3D2B7A 35%, #2746B8 100%);
+}
+
+.bg-cta {
+  background: linear-gradient(180deg, #3D2B7A 0%, #5B3FB8 100%);
+}
+
+.bg-footer {
+  background: linear-gradient(180deg, #2A1B5E 0%, #1B0F3F 100%);
+}
+
+.shadow-card {
+  box-shadow: 0 6px 18px rgba(27, 15, 63, 0.08);
+}
