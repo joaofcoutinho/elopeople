@@ -225,10 +225,10 @@ export default function Home() {
 
           <div className="mt-12 grid gap-8 md:grid-cols-4">
             {[
-              { name: "Kleber Alves", role: "Mediação", img: "/proporcionais/landing-nr01%5BELOPEOPLE%5D-03.png" },
-              { name: "Luciana Roberty", role: "Comportamento Organizacional", img: "/proporcionais/landing-nr01%5BELOPEOPLE%5D-04.png" },
-              { name: "Raphael Ruffo", role: "Liderança e Cultura", img: "/proporcionais/landing-nr01%5BELOPEOPLE%5D-05.png" },
-              { name: "Camila Salles", role: "Saúde Ocupacional", img: "/proporcionais/landing-nr01%5BELOPEOPLE%5D-06.png" },
+              { name: "Kleber Alves", role: "Mediação", img: "/proporcionais/kleber.png" },
+              { name: "Luciana Roberty", role: "Comportamento Organizacional", img: "/proporcionais/luciana.png" },
+              { name: "Raphael Ruffo", role: "Liderança e Cultura", img: "/proporcionais/raphael.png" },
+              { name: "Camila Salles", role: "Saúde Ocupacional", img: "/proporcionais/camila.png" },
             ].map((person) => (
               <div key={person.name} className="flex flex-col items-center justify-end text-center">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
