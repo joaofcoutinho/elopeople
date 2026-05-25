@@ -54,7 +54,9 @@ export default function Home() {
 
           {/* CTA */}
           <a
-            href="#inscricao"
+            href="https://elo-forms.lovable.app/f/evento-rh-saude-173ca-syue-nebj"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-8 inline-flex items-center justify-center rounded-md bg-white px-8 py-4 text-sm font-bold tracking-wide text-[#2A1B5E] shadow-lg transition hover:bg-white/95"
           >
             QUERO GARANTIR MINHA VAGA
@@ -293,7 +295,9 @@ export default function Home() {
             Garanta sua vaga agora.
           </h2>
           <a
-            href="#"
+            href="https://elo-forms.lovable.app/f/evento-rh-saude-173ca-syue-nebj"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-8 inline-flex w-full max-w-2xl items-center justify-center rounded-md bg-panel px-8 py-5 text-sm font-bold tracking-wide text-white shadow-lg transition hover:opacity-95"
           >
             FAÇA SUA INSCRIÇÃO
