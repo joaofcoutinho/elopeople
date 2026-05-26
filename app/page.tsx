@@ -246,10 +246,10 @@ export default function Home() {
 
           <div className="mt-12 grid gap-8 md:grid-cols-4">
             {[
-              { name: "Kleber Alves", role: "Mediação", img: "/proporcionais/kleber.png" },
-              { name: "Luciana Roberty", role: "Comportamento Organizacional", img: "/proporcionais/luciana.png" },
-              { name: "Raphael Ruffo", role: "Liderança e Cultura", img: "/proporcionais/raphael.png" },
-              { name: "Camila Salles", role: "Saúde Ocupacional", img: "/proporcionais/camila.png" },
+              { name: "Kleber Alves", role: "Mediação", img: "/proporcionais/kleber.png", offset: "translate-y-6" },
+              { name: "Luciana Roberty", role: "Comportamento Organizacional", img: "/proporcionais/luciana.png", offset: "" },
+              { name: "Raphael Ruffo", role: "Liderança e Cultura", img: "/proporcionais/raphael.png", offset: "" },
+              { name: "Camila Salles", role: "Saúde Ocupacional", img: "/fotocamila%20(1).png", offset: "" },
             ].map((person, i) => (
               <Reveal key={person.name} direction="up" delay={i * 130}>
                 <div className="flex flex-col items-center justify-end text-center">
@@ -257,7 +257,7 @@ export default function Home() {
                   <img
                     src={person.img}
                     alt={person.name}
-                    className="h-72 w-auto md:h-80"
+                    className={`h-72 w-auto md:h-80 ${person.offset}`}
                   />
                   <p className="mt-4 text-base font-semibold text-[#1B0F3F]">{person.name}</p>
                   <p className="mt-1 text-xs text-gray-500">{person.role}</p>
